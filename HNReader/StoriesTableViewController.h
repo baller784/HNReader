@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StoriesTableViewController.h
 //  HNReader
 //
 //  Created by Vlad on 7/1/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface StoriesTableViewController : UITableViewController
+- (IBAction)refreshTable:(id)sender;
 
 @end
-
