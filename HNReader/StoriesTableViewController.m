@@ -96,8 +96,8 @@
    
      cell.storyName.textAlignment = NSTextAlignmentLeft;
     cell.storyName.text =[NSString stringWithFormat:@"%d. %@", indexPath.row+1, [story objectForKey:@"title"]];
-    cell.score.text = [[story objectForKey:@"score"]stringValue];
-    cell.creator.text = [story objectForKey:@"by"];
+    cell.score.text = [NSString stringWithFormat:@"%@ points",[[story objectForKey:@"score"]stringValue]];
+    cell.creator.text = [NSString stringWithFormat:@"by %@",[story objectForKey:@"by"]];
     NSDate *date =[[NSDate alloc]initWithTimeIntervalSince1970:[[story objectForKey:@"time"]doubleValue]];
     cell.time.text =[date timeAgo];
     cell.totalComments.text =[NSString stringWithFormat:@"%d comments",[[story objectForKey:@"descendants"]intValue]];

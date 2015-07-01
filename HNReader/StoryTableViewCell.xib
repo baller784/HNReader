@@ -25,31 +25,31 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Score" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pbc-me-O3n">
-                        <rect key="frame" x="8" y="42" width="40" height="21"/>
+                        <rect key="frame" x="8" y="42" width="55" height="21"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="40" id="Z7f-xt-hvp"/>
+                            <constraint firstAttribute="width" constant="55" id="Z7f-xt-hvp"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Creator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Itb-4z-2Rj">
-                        <rect key="frame" x="53" y="42" width="74" height="21"/>
+                        <rect key="frame" x="65" y="42" width="74" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkJ-BT-agJ">
-                        <rect key="frame" x="135" y="42" width="83" height="21"/>
+                        <rect key="frame" x="142" y="42" width="87" height="21"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="83" id="Vp1-w8-ftj"/>
+                            <constraint firstAttribute="width" constant="87" id="Vp1-w8-ftj"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Total comments" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYu-rZ-jIy">
-                        <rect key="frame" x="226" y="42" width="86" height="21"/>
+                        <rect key="frame" x="231" y="42" width="81" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
@@ -59,13 +59,13 @@
                     </activityIndicatorView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="Itb-4z-2Rj" firstAttribute="leading" secondItem="Pbc-me-O3n" secondAttribute="trailing" constant="5" id="3ck-lZ-lw4"/>
+                    <constraint firstItem="Itb-4z-2Rj" firstAttribute="leading" secondItem="Pbc-me-O3n" secondAttribute="trailing" constant="2" id="3ck-lZ-lw4"/>
                     <constraint firstItem="Pbc-me-O3n" firstAttribute="baseline" secondItem="EYu-rZ-jIy" secondAttribute="baseline" id="4bY-NK-nGd"/>
-                    <constraint firstItem="EYu-rZ-jIy" firstAttribute="leading" secondItem="GkJ-BT-agJ" secondAttribute="trailing" constant="8" symbolic="YES" id="AVK-5Q-88t"/>
+                    <constraint firstItem="EYu-rZ-jIy" firstAttribute="leading" secondItem="GkJ-BT-agJ" secondAttribute="trailing" constant="2" id="AVK-5Q-88t"/>
                     <constraint firstItem="994-yb-6uG" firstAttribute="top" secondItem="Vpt-vM-6I0" secondAttribute="topMargin" id="AfJ-1W-rQz"/>
-                    <constraint firstItem="GkJ-BT-agJ" firstAttribute="leading" secondItem="Itb-4z-2Rj" secondAttribute="trailing" constant="8" symbolic="YES" id="HXA-BT-dRD"/>
+                    <constraint firstItem="GkJ-BT-agJ" firstAttribute="leading" secondItem="Itb-4z-2Rj" secondAttribute="trailing" constant="3" id="HXA-BT-dRD"/>
                     <constraint firstItem="Pbc-me-O3n" firstAttribute="baseline" secondItem="GkJ-BT-agJ" secondAttribute="baseline" id="HtL-Pt-TMo"/>
-                    <constraint firstItem="GkJ-BT-agJ" firstAttribute="leading" secondItem="Vpt-vM-6I0" secondAttribute="leading" constant="135" id="KMg-qo-0sX"/>
+                    <constraint firstItem="GkJ-BT-agJ" firstAttribute="leading" secondItem="Vpt-vM-6I0" secondAttribute="leading" constant="142" id="KMg-qo-0sX"/>
                     <constraint firstItem="994-yb-6uG" firstAttribute="leading" secondItem="Vpt-vM-6I0" secondAttribute="leadingMargin" constant="-7" id="SxS-12-zQ4"/>
                     <constraint firstItem="EYu-rZ-jIy" firstAttribute="top" secondItem="994-yb-6uG" secondAttribute="bottom" constant="7" id="U3o-j4-YqW"/>
                     <constraint firstItem="994-yb-6uG" firstAttribute="leading" secondItem="Pbc-me-O3n" secondAttribute="leading" id="bEz-AY-6Mo"/>
