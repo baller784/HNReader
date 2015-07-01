@@ -15,8 +15,8 @@
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qAG-hc-KF9" id="Vpt-vM-6I0">
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Story Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="994-yb-6uG">
-                        <rect key="frame" x="8" y="8" width="304" height="27"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="994-yb-6uG">
+                        <rect key="frame" x="1" y="8" width="318" height="27"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="27" id="JGA-kz-HKZ"/>
                         </constraints>
@@ -24,8 +24,8 @@
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Score" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pbc-me-O3n">
-                        <rect key="frame" x="8" y="42" width="55" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pbc-me-O3n">
+                        <rect key="frame" x="1" y="42" width="55" height="21"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="55" id="Z7f-xt-hvp"/>
                         </constraints>
@@ -33,8 +33,8 @@
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Creator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Itb-4z-2Rj">
-                        <rect key="frame" x="65" y="42" width="74" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Itb-4z-2Rj">
+                        <rect key="frame" x="58" y="42" width="81" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
@@ -48,13 +48,13 @@
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Total comments" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYu-rZ-jIy">
-                        <rect key="frame" x="231" y="42" width="81" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total comments" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYu-rZ-jIy">
+                        <rect key="frame" x="231" y="42" width="88" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="XLS-lt-dMu">
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="XLS-lt-dMu">
                         <rect key="frame" x="259" y="8" width="20" height="20"/>
                     </activityIndicatorView>
                 </subviews>
@@ -70,6 +70,7 @@
                     <constraint firstItem="EYu-rZ-jIy" firstAttribute="top" secondItem="994-yb-6uG" secondAttribute="bottom" constant="7" id="U3o-j4-YqW"/>
                     <constraint firstItem="994-yb-6uG" firstAttribute="leading" secondItem="Pbc-me-O3n" secondAttribute="leading" id="bEz-AY-6Mo"/>
                     <constraint firstItem="994-yb-6uG" firstAttribute="centerX" secondItem="Vpt-vM-6I0" secondAttribute="centerX" id="e9H-EV-Jfa"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="XLS-lt-dMu" secondAttribute="trailing" constant="33" id="eKF-WB-wUZ"/>
                     <constraint firstItem="Pbc-me-O3n" firstAttribute="bottom" secondItem="Vpt-vM-6I0" secondAttribute="bottomMargin" id="g3J-nf-eT1"/>
                     <constraint firstItem="994-yb-6uG" firstAttribute="top" secondItem="XLS-lt-dMu" secondAttribute="top" id="mIX-wB-P4F"/>
                     <constraint firstItem="Pbc-me-O3n" firstAttribute="firstBaseline" secondItem="Itb-4z-2Rj" secondAttribute="firstBaseline" id="oA0-jW-Ltn"/>
