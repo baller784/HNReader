@@ -86,7 +86,7 @@
         cell.score.text = nil;
         cell.creator.text = nil;
         cell.totalComments.text = [NSString stringWithFormat:@"%lu readed",(unsigned long)[storiesSeen count]];
-        cell.time.text = [NSString stringWithFormat:@"%u more ",[ids count] - loadedStories];
+        cell.time.text = [NSString stringWithFormat:@"%lu more ",[ids count] - loadedStories];
         return  cell;
     }else {
     //configure stories cell
@@ -95,7 +95,7 @@
     NSDictionary *story = [stories objectAtIndex: indexPath.row];
    
      cell.storyName.textAlignment = NSTextAlignmentLeft;
-    cell.storyName.text =[NSString stringWithFormat:@"%d. %@", indexPath.row+1, [story objectForKey:@"title"]];
+    cell.storyName.text =[NSString stringWithFormat:@"%ld. %@", indexPath.row+1, [story objectForKey:@"title"]];
     cell.score.text = [NSString stringWithFormat:@"%@ points",[[story objectForKey:@"score"]stringValue]];
     cell.creator.text = [NSString stringWithFormat:@"by %@",[story objectForKey:@"by"]];
     NSDate *date =[[NSDate alloc]initWithTimeIntervalSince1970:[[story objectForKey:@"time"]doubleValue]];
@@ -124,7 +124,8 @@
     [stories removeAllObjects];
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager GET: @"https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [manager GET: @"https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty" parameters:nil
+        success:^(AFHTTPRequestOperation *operation, id responseObject) {
         ids = responseObject;
         [self getTopStories];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
@@ -194,6 +195,7 @@
     }else {
         [self performSegueWithIdentifier:@"showUrl" sender:self];
     }
+    
 }
 #pragma mark - Navigation
 
